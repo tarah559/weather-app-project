@@ -1,0 +1,93 @@
+body {
+    font-family: arial, sans-serif;
+}
+form {
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 100;
+    text-align: left;
+
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 21px; 
+    text-transform: capitalize;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.date-styling {
+    opacity: 1;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: 100;
+    height: 19px;
+    line-height: 1;
+}
+
+.temp-styling {
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 1;
+    margin-left: -20px;
+}
+
+.icon-container {
+    font-size: 50px;
+}
+
+.weather-app {
+    padding: 25px;
+    border: 1px solid #354767;
+    border-radius: 20px;
+    max-width: 600px;
+}
+.weather-app-wrapper {
+    margin: 30px auto;
+}
+
+.units {
+    opacity: 0.9;
+    font-size: small;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: relative;
+    top: -32px;
+    left: -16px;
+}
+.units-style {
+    text-decoration: none;
+}
+
+.week-predictions {
+    padding-top: 16px;
+}
+
+.weather {
+    opacity: 0.9;
+    font-size: small;
+}
+
+.col-2 {
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #eedede;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 64px;
+}
+
+.icon-container .active{
+    color: black;
+    cursor: default;
+}
+
+.icon-container .active:hover {
+    text-decoration: none;
+}
