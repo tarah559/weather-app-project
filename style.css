@@ -93,7 +93,7 @@ ul {
 }
 
 .weather-forecast {
-    margin-top: 20px;
+    margin-top: 13px;
     text-align: center;
 }
 
@@ -104,7 +104,7 @@ ul {
 }
 
 .weather-forecast-temperature {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .weather-forecast-temperature-min {
