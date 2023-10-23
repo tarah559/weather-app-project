@@ -1,14 +1,24 @@
 body {
-    font-family: arial, sans-serif;
+    font-family: 'Roboto',sans-serif;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: auto;
 }
+
 form {
     margin-bottom: 25px;
 }
 
 h1 {
+    color: #082D48;
     font-size: 30px;
     font-weight: 100;
     text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 
 }
 
@@ -16,6 +26,18 @@ ul {
     list-style: none;
     margin-bottom: 21px; 
     text-transform: capitalize;
+    font-weight: 300;
+}
+ strong {
+    color: #082D48;
+}
+
+ .ending-text {
+    text-align: center;
+    margin: 30px auto;
+    display: block;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container {
@@ -45,12 +67,27 @@ ul {
 
 .weather-app {
     padding: 25px;
-    border: 1px solid #354767;
+    border: 3px solid #354767;
     border-radius: 20px;
     max-width: 600px;
+    margin: 30px auto;
+    background-image: url(https://images.unsplash.com/photo-1562814830-8286a3397045?auto=format&fit=crop&q=80&w=1430&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    background-color: #7CC9F5;
+    border: #5DA9D4;
+    color: black;
+}
+
+.btn:hover {
+    background: #5DA9D4;
 }
 .weather-app-wrapper {
     margin: 30px auto;
+    display: block;
 }
 
 .units {
@@ -100,7 +137,7 @@ ul {
 
 .weather-forecast-date {
     font-size: 16px;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .weather-forecast-temperature {
@@ -108,5 +145,5 @@ ul {
 }
 
 .weather-forecast-temperature-min {
-    opacity: 0.6
+    opacity: 0.8;
 }
